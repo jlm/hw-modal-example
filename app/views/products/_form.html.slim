@@ -7,4 +7,4 @@
     = tag.p(f.object.errors[:name].join(', '), class: 'form-error') if f.object.errors[:name].any?
 
   = content_for :modal_footer do
-    = f.submit 'Save', class: 'btn btn-primary', form: f.id
+    = f.submit 'Save', class: 'btn btn--primary', form: f.id
